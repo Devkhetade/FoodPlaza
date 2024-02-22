@@ -8,8 +8,9 @@ public class DButility {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			String url = "jdbc:mysql://localhost:3306/foodplaza";
-			String user = "root";
-			String password = "dev2#vk";
+			//Enter your user and password of mysql workbench//
+			String user = root;
+			String password = password;
 			con = DriverManager.getConnection(url, user, password);
 		} catch (Exception e) {
 			e.printStackTrace();
